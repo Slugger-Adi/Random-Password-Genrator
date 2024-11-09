@@ -1,0 +1,44 @@
+*{
+    /* box-sizing: border-box; */
+    color-scheme: light dark;
+    font-family: "Kode Mono", serif;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://cdn.pixabay.com/photo/2024/06/21/10/50/ai-generated-8844136_960_720.png");
+    height: 70vh;
+    width: 60vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ input{
+    width: 90%;
+    text-align: center;
+ }
+ .aa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+ #btn{
+    background: transparent;
+    color: white;
+    height: 30px;
+    width: 170px;
+ }
+ /* h1{
+    font-family: "Kode Mono", serif;
+    border-bottom: ;
+ } */
